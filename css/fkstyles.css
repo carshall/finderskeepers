@@ -1,5 +1,4 @@
 .carousel {
-  width: 500px;
   height: 500px;
   margin: auto;
 }
@@ -12,6 +11,8 @@
   margin: auto;
   text-align: center;
   padding-top: 100px;
+  height: 500px;
+  background-color: #F9F7F7
 }
 
 .title {
@@ -28,15 +29,17 @@
 
 .carousel-container {
   margin: auto;
+  background-color: #112D4E;
 }
 
 .cta-container {
   padding-top: 75px;
 }
 
-.socials{
+footer {
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .social-icon {
@@ -78,8 +81,22 @@
 
 .user-bio {
   padding-top: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.user-info {
+    background-color: #F9F7F7
 }
 
 .user-option {
-  padding-top: 10px;
+  padding-top: 17px;
+}
+
+.test-container {
+  align-items: center;
+}
+
+.test-text {
+  background-color: #F9F7F7;
 }
