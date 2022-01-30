@@ -1,0 +1,85 @@
+.carousel {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.heading-container {
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.title {
+  padding-bottom: 20px;
+}
+
+.subtitle {
+  padding-bottom: 50px;
+}
+
+.home-container {
+  padding-top: 50px;
+}
+
+.carousel-container {
+  margin: auto;
+}
+
+.cta-container {
+  padding-top: 75px;
+}
+
+.socials{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.social-icon {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.product-img {
+  height: 300px;
+}
+
+.col-md-3 {
+  padding-top: 20px;
+  padding-left: 30px;
+  flex: 25%;
+  max-width: 25%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .col-md-3 {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col-md-3 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.caption {
+  background-color: #DBE2EF;
+}
+
+.user-bio {
+  padding-top: 50px;
+}
+
+.user-option {
+  padding-top: 10px;
+}
